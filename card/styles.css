@@ -3,15 +3,16 @@ body{
     font-family: 'happy Monkey', cursive; 
     background: #a2d2ff; 
     color: #ffffff;
-    display: flex; 
+    /* display: flex; 
     flex-direction: columns; 
-    align-items: center; 
+    align-items: center;  */
 }
 
 #bff-img {
-    width: 150; 
+    width: 150px; 
     border-radius: 50%; 
     border: 6px solid #EFB0C9; 
+    margin-bottom: 10px; 
 }
 
 h1, h2, h3, h4, p {
@@ -43,7 +44,7 @@ h1, h2, h3, h4, p {
 }
 
 .gift-title{
-    margin-bottom: 10; 
+    margin-bottom: 10px; 
 }
 
 .gift-hint{ 
@@ -51,7 +52,7 @@ h1, h2, h3, h4, p {
 }
 
 .gift-img{
-    margin: 0 auto; 
+    margin: 20px auto; 
     width: 400px; 
     height: 400px; 
     border: 6px solid white; 
@@ -62,4 +63,15 @@ h1, h2, h3, h4, p {
 
 .gift-img:hover{
     background-image: url("giphy.jpg");
+}
+
+#footer{
+    font-style: italic; 
+    width: 400px; 
+    margin: 40px auto 20px; 
+   
+}
+
+a{
+    color: white; 
 }
